@@ -1,0 +1,40 @@
+/* Fondo celeste común para ambas páginas */
+body {
+    background-color: #e0f7fa;
+}
+
+/* Estilos comunes para todos los formularios */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajuste para leyendas y títulos */
+legend {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* Estilos específicos para la página de Consultar Vuelos (Página 1) */
+#consultar-vuelos h1 {
+    color: #007bff;
+}
+
+/* Estilos específicos para la página de Registro de Reserva (Página 2) */
+#registro-reserva h1 {
+    color: #28a745;
+}
+
+/* Responsivo para pantallas pequeñas */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    form {
+        padding: 10px;
+    }
+}
+
